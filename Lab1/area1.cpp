@@ -11,3 +11,8 @@ int main()
     cout<<"\t\nThe area of the triangle is : "<<area<<" unit square";
     return 0;
 }
+
+ 
+
+     
+
