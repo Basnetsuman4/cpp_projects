@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-  int num[10] , i ;
+  int  num[10] , i ;
   cout<<"\tEnter any ten numbers to be checked :\n ";
   for(int i = 0; i < 10 ; i++)
     {
