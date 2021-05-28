@@ -8,7 +8,7 @@ int main()
     cout<<"\t\nEnter the height of the triangle : ";
     cin>>height;
     area = 0.5*base*height;
-    cout<<"\t\nThe area of the triangle is : "<<area<<" unit square .";
+    cout<<"\t\nThe area of the triangle is : "<<area<<" unit square.";
     return 0;
 }
 
