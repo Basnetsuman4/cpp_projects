@@ -3,7 +3,7 @@ using namespace std;
 
 struct student
 {   
-    char name[20];
+    char  name[20];
     char address[50];
     int roll  ;
 };
