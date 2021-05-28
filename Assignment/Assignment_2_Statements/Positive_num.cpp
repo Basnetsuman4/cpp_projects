@@ -1,13 +1,25 @@
  #include <iostream>
 using namespace std;
-int main() {
-   int a[5],i;
-   cout<<"Enter the numbers in array\n";
-   for(i=0; i<5; i++)
-   cin>>a[i];
-   
-   for(i=0; i<5; i++)
-    if(a[i]>0)
-   cout<<a[i]<<" ";
-   return 0;
-}
+int main()
+{
+  int num[10] , i ;
+  cout<<"\tEnter any ten numbers to be checked :\n ";
+  for(int i = 0; i < 10 ; i++)
+    {
+        cin>>num[i];
+        cout<<"\t"<<endl;
+
+    };
+    cout<<"\n The positive numbers are : ";
+    for(int i = 0; i < 10; i++)
+    {
+        if(num[i]>0)
+        {
+            cout<<"\t "<<endl;
+            cout<<num[i];
+             
+        }
+    };
+    return 0;
+}    
+  
