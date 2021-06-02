@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    float base , height, area;
+    float  base , height, area;
     cout<<"\tEnter the base of the triangle : ";
     cin>>base;
     cout<<"\t\nEnter the height of the triangle : ";
