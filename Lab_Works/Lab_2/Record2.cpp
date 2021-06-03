@@ -7,7 +7,7 @@ struct student {
 
     int  roll;
 
-    char  address[20];
+    char address[20];
 
 };
 
