@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    char word[50];
+    char  word[50];
     int length;
     cout<<"\tEnter any character : ";
     

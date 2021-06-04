@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    char word1[25], word2[25];
+    char word1[25] , word2[25];
     cout<<"\tEnter any character : ";
     
     gets(word1);
