@@ -41,7 +41,7 @@ Room(double l)
                 height = 5.4; 
             }
 ```
-Here we have single parameter so, we are allowed to take single input and other's value are assigned.
+Here, we have single parameter so, we are allowed to take single input and other's value are assigned.
 >3. Constructor with double parameter
 ```c++
 Room(double l , double b)      
