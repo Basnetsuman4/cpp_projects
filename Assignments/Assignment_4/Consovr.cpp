@@ -30,8 +30,8 @@ class Room
                 length = l;
                 breadth = b;
                 height = 10.1;
-
             }
+            
         Room(double l , double b , double h)        //Constructor with triple argument//
             {
                 length = l;
