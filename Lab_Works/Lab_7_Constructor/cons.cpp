@@ -7,7 +7,7 @@ class Construct
 
     public:
         int  a, b;
-    Construct()
+    Construct() //Default Constructor//
     {
 
 
