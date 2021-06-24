@@ -19,8 +19,8 @@ class complex{
 
         complex sum_complex(complex c1, complex c2){
             complex add;
-            add.real= c1.real+c2.real;
-            add.imaginary = c1.imaginary+c2.imaginary;
+            add.real= c1.real + c2.real;
+            add.imaginary = c1.imaginary + c2.imaginary;
             return (add);
         }
 
