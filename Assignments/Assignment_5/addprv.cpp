@@ -14,6 +14,7 @@ class first{
             cout<<"Enter the number for first class : "<<endl;
             cin>>num1; 
         }
+
 };
 class second{
     private:
