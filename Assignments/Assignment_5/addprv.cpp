@@ -11,7 +11,7 @@ class first{
         friend class second;
 
         void get_num(){
-            cout<<"Entere the number for first class : "<<endl;
+            cout<<"Enter the number for first class : "<<endl;
             cin>>num1; 
         }
 };
@@ -22,7 +22,7 @@ class second{
     public:
 
         void get_num(){
-            cout<<"Entere the number for second class : "<<endl;
+            cout<<"Enter the number for second class : "<<endl;
             cin>>num2; 
         }
 
