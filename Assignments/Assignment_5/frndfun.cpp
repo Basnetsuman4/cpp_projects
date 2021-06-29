@@ -30,7 +30,7 @@ float mean(Sample S1) // Calling this function inside the class and calling it o
 
 int main()
 {
-    Sample s1, s2;
+    Sample s1;
 
     s1.get_data();
 
