@@ -8,7 +8,7 @@ class first{
 
     public:
 
-        friend class second;
+        friend class second; //Calling friend function to get access outside class 
 
         void get_num(){
             cout<<"Enter the number for first class : "<<endl;
