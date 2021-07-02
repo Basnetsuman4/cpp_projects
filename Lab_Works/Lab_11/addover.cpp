@@ -22,8 +22,8 @@ class operate{
 
             void operator ++(){
                 a = a+4;
-                b = b+2;
-                c = c+3;
+                b = b+3;
+                c = c+2;
             }
 
 };
