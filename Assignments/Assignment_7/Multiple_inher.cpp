@@ -55,3 +55,13 @@ int main()
     return 0;
 }
  
+//  OUTPUT //
+/*child1 constructor is called.
+Parent is constructor called.
+Child2 constructor is called.
+Child2 destructor is called.
+Parent is destructor called.
+Child1 destructor is called.
+Parent constructor is called.
+Parent  destructor is called.
+Child1 destructor is called.*/
