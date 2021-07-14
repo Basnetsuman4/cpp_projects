@@ -86,6 +86,7 @@ int main()
     
         cout<<"Do you want to update the registered data y/n ?"<<endl;
         cin>>choice;
+        cin.ignore();
     } while (choice=='y' ||choice=='Y');
     
     
