@@ -39,11 +39,13 @@ class Derived1 : public Base
 
 int main()
 {
-    Base *b;
+      Base *b;  //Calling pointer to Base
 
-    b = new Derived1;   
+    b = new Derived1;   //Derived1 ko data ko address pointer ko through bata chai dynamically allocacte garne
 
     b->display();
 
-    delete b;
+    delete b;   //removal of the pointer allocation by pointer-variable 
 }
+
+//virtual use garera destructor call garda chai , delete le b ko memory space free gardinxa ani base ra derived duitai class ko destructor call hunxa
