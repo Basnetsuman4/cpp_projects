@@ -9,7 +9,7 @@ int main()
     int *p;// p is pointer variable
 
     //p = i; 
-     p = reinterpret_cast<int*>(i);
+    p = reinterpret_cast<int*>(i);
     cout<<"Value of p is : "<<p;
 }
 // make the value's value into address
