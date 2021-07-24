@@ -20,6 +20,7 @@ class Derived : public Base{
         }
 };
 
+
 int main()
 {
     Base *bptr, bpt;
