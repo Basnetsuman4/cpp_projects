@@ -28,7 +28,7 @@ int main()
 
     dptr = dynamic_cast<Derived *> (bptr);// base pointer lai derived pointer ma cast garna, no error as bptr is holding address of derived class
 
-    dptr->print;
+   dptr->print;
 
         //bptr = &bpt;
         //dpyr =  dynamic_cast <Derived *> (bptr);
