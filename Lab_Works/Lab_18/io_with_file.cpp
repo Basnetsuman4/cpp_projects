@@ -23,7 +23,7 @@ int main()
     //ignore or clean one or more characters from the input buffer
     cin.ignore();
 
-    //again write inoutted data into the file
+    //again write inputted data into the file
     outfile<< data <<endl;
 
     //close the opened file
